@@ -124,7 +124,16 @@
   transform: rotate(360deg); }
 
 .urta {
+  padding-top: 50px;
   padding-bottom: 105px; }
+  .urta h3 {
+    font-size: 42px;
+    padding-bottom: 140px;
+    color: #4e525d; }
+  .urta h2 {
+    padding-top: 70px; }
+  .urta h6 {
+    padding-bottom: 35px; }
 
 .buy_color {
   background-color: #f1f1f1; }
@@ -281,6 +290,7 @@ footer {
     width: 555px;
     height: 180px; }
   .contact .btn-default {
+    border: none;
     height: 50px;
     width: 170px;
     border-radius: 8px;
