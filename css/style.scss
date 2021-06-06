@@ -107,3 +107,226 @@ h1{
   border-radius: 50%;
   background-color: white;
 }
+.user_img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #eeeef0;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+.user_img img{
+  display: block;
+  width: 100%;
+}
+.user_img:after{
+  content:"+";
+  color: red;
+  display: inline-block;
+  font-size: 100px;
+  position: absolute;
+  left: 73px;
+  top: -150px;
+  transition: 0.4s;
+}
+.user_img:hover:after{
+  top: 35px;
+  transform: rotate(360deg);
+}
+.urta{
+  padding-bottom: 105px;
+}
+.buy_color{
+  background-color:#f1f1f1;
+
+}
+.buy_now {
+  padding-top: 120px;
+  padding-bottom: 100px;
+
+  li {
+    list-style-type: none;
+    text-align: center;
+    border: solid 1px #ecf0f1;
+  }
+
+  li:nth-child(1) {
+    border: solid 1px transparent;
+    height:75px;
+    width:370px;
+    padding-top:15px;
+    color: white;
+    font-size: 26px;
+  }
+  li:nth-child(2){
+    background-color: #f8f9fb;
+    height: 70px;
+    width: 370px;
+    font-size: 20px;
+    padding-top: 18px;
+    color: #485460;
+  }
+  li:nth-child(3){
+    background-color:#ffffff;
+    height:45px;
+    width: 370px;
+    padding-top: 12px;
+    color: #abafb4;
+  }
+  li:nth-child(4){
+    background-color:#ffffff;
+    height:45px;
+    width: 370px;
+    padding-top: 12px;
+    color: #abafb4;
+  }
+  li:nth-child(5){
+    background-color:#ffffff;
+    height:45px;
+    width: 370px;
+    padding-top: 12px;
+    color: #abafb4;
+  }
+  li:nth-child(6){
+    background-color:#ffffff;
+    height:45px;
+    width: 370px;
+    padding-top: 12px;
+    color: #abafb4;
+  }
+  li:nth-child(7){
+    background-color:#ffffff;
+    height:45px;
+    width: 370px;
+    padding-top: 12px;
+    color: #abafb4;
+  }
+  li:nth-child(8){
+    background-color:#ffffff;
+    height:45px;
+    width: 370px;
+    padding-top: 12px;
+    color: #abafb4;
+  }
+  li:nth-child(9){
+    background-color:#f8f9fb;
+    height:100px;
+    width: 370px;
+    padding-top:30px;
+    color: #abafb4;
+  }
+}
+.basic{
+  li:nth-child(1){
+    background-color: #485460;
+  }
+  a{
+    background-color:#485460 ;
+    padding-top:5px;
+    font-size: 17px;
+    color: white;
+    margin-left: 8px;
+    display: inline-block;
+    width:170px;
+    height:40px;
+    text-align: center;
+    text-decoration: none;
+    border: solid 2px #fff;
+    border-radius:8px;
+  }
+}
+.pro{
+  li:nth-child(1){
+    background-color: #49cbcd;
+  }
+  a{
+    padding-top:5px;
+    font-size: 17px;
+    color: white;
+    margin-left: 8px;
+    display: inline-block;
+    width:170px;
+    height:40px;
+    text-align: center;
+    text-decoration: none;
+    border: solid 2px #fff;
+    border-radius:8px;
+    background-color: #49cbcd;
+  }
+}
+.premium{
+  li:nth-child(1){
+    background-color: #485460;
+  }
+  a{
+    padding-top:5px;
+    font-size:17px;
+    color: white;
+    margin-left: 8px;
+    display: inline-block;
+    width:170px;
+    height:40px;
+    text-align: center;
+    text-decoration: none;
+    border: solid 2px #fff;
+    border-radius:8px;
+    background-color: #485460;
+  }
+}
+footer{
+  background-image: url("../images/test-small_02.png");
+}
+.contact{
+  padding-bottom: 85px;
+  h2{
+    color: white;
+    padding-top: 105px;
+    padding-bottom: 115px;
+    text-align: center;
+  }
+  i{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    color: white;
+    margin-right: 15px;
+  }
+  .fa-facebook-f{
+    background-color:#3b5997;
+  }
+  .fa-twitter{
+    background-color: #3ec2f3;
+  }
+  .fa-google-plus-g{
+    background-color: #e44c41;
+  }
+  .lorem{
+    color:#7d7d7d;
+    padding-bottom: 40px;
+  }
+  p{
+    color: #bface2;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  h3{
+    color: white;
+    font-size: 24px;
+    padding-bottom: 15px;
+  }
+  textarea{
+    width: 555px;
+    height: 180px;
+  }
+  .btn-default{
+    height: 50px;
+    width: 170px;
+    border-radius: 8px;
+    color: white;
+  }
+}
+
